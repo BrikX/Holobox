@@ -1,0 +1,962 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+}
+
+/*header*/
+
+.banner-principal{
+  background-image: url(../img/home-img.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 590px;
+  background-size: cover;
+}
+
+#nav{
+  background: none !important;
+  border: none !important;
+  padding: 25px 0px !important;
+}
+
+#nav .navbar-brand{
+  margin-top: -28px;
+}
+
+#nav .navbar-left .dropdown{
+  display: inline-block;
+  margin-top: -5px;
+}
+
+#nav .navbar-left .dropdown #dropdownMenu{
+  background-color: #27296D;
+  border-radius: 0px;
+  border: none;
+  padding: 5px 10px;
+}
+
+#nav .navbar-left .dropdown #dropdownMenu span{
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 16.88px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+#nav .navbar-left .dropdown .dropdown-menu{
+  min-width: 82px;
+}
+
+#nav .navbar-left .dropdown .dropdown-menu button{
+  display: block;
+  margin: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 50px;
+
+  background-color: #27296D;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+#nav .navbar-left .dropdown .dropdown-menu img{
+  margin: auto;
+}
+
+#nav .navbar-nav>li{
+  list-style: none;
+  margin-right: 40px;
+}
+
+#nav .navbar-nav>li>a{
+  color: #FFFFFF;
+  font-size: 12.48px;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  line-height: 15px;
+  width: 132px;
+  text-transform: uppercase;
+}
+
+#nav .icon-container{
+  float: right;
+  margin-top: -4px;
+}
+
+/*#nav .icon-container.open{
+  width: 72px;
+}*/
+
+#nav .icon-container .dropdown-menu:after{
+  content:"";
+  position: absolute;
+    background-image: url(../img/triangulo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 18px; 
+  top: -18px;
+  right: 40px;
+}
+#nav .icon-container .dropdown-menu{
+  position: absolute;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 0px;
+  /*width: 30px;*/
+  left: 84.7%;
+  top: 60px;
+  /*left: -90px;
+  top: 15px;*/
+}
+
+#nav .icon-container .dropdown-menu p{
+  color: #27296D;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  width: 154px;
+  text-align: center;
+}
+
+#nav .icon-container .dropdown-menu a{
+  color: #27296D;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+/*modal*/
+
+#ConfirmMail .modal-body h4{
+  text-align: center;
+  color: #27296D;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+#ConfirmMail .modal-footer button{
+  margin: auto;
+  display: block;
+  background-color: #27296D;
+}
+
+#ConfirmMail .modal-footer button span{
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+/*home-principal*/
+
+#home-principal{
+   margin-top: 55px;
+}
+
+#home-principal .home-container{
+   margin-left: 100px;
+}
+
+
+#home-principal	.home-text h1{
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  width: 415px;
+  text-align: left;
+  margin-top: 45px;
+  text-transform: uppercase;
+}
+
+#home-principal	.home-text p{
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 310px;
+  text-align: left;
+}
+
+#home-principal	.home-text p span{
+  font-weight: 700;
+}
+
+#home-principal	.home-text button{
+  background-color: #27296D;
+  border-radius: 0px;
+  border: none;
+  padding: 5px 29px;
+  margin-top: 50px;
+}
+
+#home-principal	.home-text button span{
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 16.88px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/*como-funciona*/
+
+#ventas{
+  padding: 100px 0px !important;
+}
+
+#ventas .ventas-text{
+  margin-left: 50px;
+}
+
+#ventas .ventas-text h1{
+  color: #27296D;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 41px;
+  width: 245px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#ventas .ventas-text p{
+  color: #515151;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 334px;
+  text-align: left;
+}
+
+#ventas .ventas-text p span{
+  font-weight: 700;
+}
+
+#ventas .ventas-text button{
+  background-color: #27296D;
+  border-radius: 0px;
+  border: none;
+  padding: 5px 9px;
+}
+
+#ventas .ventas-text button span{
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 16.88px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/*clientes*/
+
+#clientes{
+  padding: 50px 0px !important;
+}
+
+#clientes .clientes-text{
+  margin-left: 100px;
+}
+
+#clientes .clientes-text h1{
+  color: #27296D;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 41px;
+  width: 175px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#clientes .clientes-text p{
+  color: #515151;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 334px;
+  text-align: left;
+}
+
+/*pasos*/
+
+#pasos{
+  padding: 100px 0px !important;
+}
+
+#pasos .pasos-container .title{
+  color: #27296D;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 41px;
+  width: 180px;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#pasos .clientes-item1{
+  margin-left: 100px;
+}
+
+#pasos .clientes-item1 h1{
+  color: #27296D;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 165px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#pasos .clientes-item1 p{
+  color: #515151;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 205px;
+  text-align: left;
+}
+
+#pasos .clientes-item2{
+  margin-left: 100px;
+}
+
+#pasos .clientes-item2 h1{
+  color: #27296D;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 260px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#pasos .clientes-item2 p{
+  color: #515151;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 212px;
+  text-align: left;
+}
+
+#pasos .clientes-item3{
+  margin-left: 100px;
+}
+
+#pasos .clientes-item3 h1{
+  color: #27296D;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 170px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#pasos .clientes-item3 p{
+  color: #515151;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 212px;
+  text-align: left;
+}
+
+/*contacto*/
+
+#contacto{
+  padding: 100px 0px !important;  
+  background-image: url(../img/contacto-img.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 611px;
+  background-size: cover;
+}
+
+#contacto .contacto-text{
+  margin-left: 100px;
+}
+
+#contacto .contacto-text h1{
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 40px;
+  width: 324px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#contacto .contacto-text p{
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 324px;
+  text-align: left;
+}
+
+#contacto form{
+  background-color: #fff;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 31px 35px;
+  text-align: center;
+}
+
+#contacto form .title{
+  color: #27296D;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25px;
+  width: 315px;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#contacto form .form1{
+  width: 50%;
+  float: left;
+}
+
+#contacto form .form1 input{
+  border: none;
+  border-bottom: 1px solid #27296D;
+  padding: 3px 10px;
+
+  color: #27296D;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.08px;
+  line-height: 26px;
+  width: 189.51px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#contacto form .form2{
+  width: 50%;
+  float: right;
+}
+
+#contacto form .form2 input{
+  border: none;
+  border-bottom: 1px solid #27296D;
+  padding: 3px 10px;
+
+  color: #27296D;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.08px;
+  line-height: 26px;
+  width: 189.51px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#contacto form textarea{
+  border: 1px solid #27296D;
+  width: 432px;
+  height: 137px;
+  padding: 3px 10px;
+  margin-top: 15px;
+
+  color: #27296D;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.08px;
+  line-height: 26px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#contacto form .buttonBox button{
+  background-color: #27296D;
+  border-radius: 0px;
+  border: none;
+  padding: 5px 19px;
+  margin-top: 10px;
+}
+
+#contacto form .buttonBox button span{
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+/*footer*/
+
+#footer{
+  padding: 50px 0px;
+}
+
+#footer .footer-logo{
+  margin-left: 100px;
+}
+
+#footer .footer-link{
+  text-align: center;
+  margin-left: 100px;
+}
+
+#footer .footer-link a{
+  color: #D65A26;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.88px;
+  line-height: 32px;
+  width: 170px;
+}
+
+#footer .footer-link h5{
+  color: #919191;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.88px;
+  line-height: 32px;
+  width: 105px;
+  margin: auto;
+}
+
+#footer .footer-social{
+  margin-left: 100px;
+}
+
+#footer .footer-social .sociallinks{
+  list-style: none;
+}
+
+#footer .footer-social .sociallinks li{
+  display: inline-block;
+  margin-right: 25px;
+}
+
+@media (max-width: 991px){
+
+/*navbar*/
+
+#nav .icon-container .dropdown-menu{
+  left: 78.4%;
+}
+
+/*home-principal*/
+
+#home-principal .home-container{
+   margin-left: 0px;
+   margin-top: 40px;
+}
+
+/*clientes*/
+
+#clientes .clientes-text{
+    margin-left: 0px;
+}
+
+/*ventas*/
+
+#ventas .container-fluid{
+  width: 750px;
+}
+
+#ventas .ventas-text {
+    margin-left: 0px;
+}
+
+/*pasos*/
+
+#pasos .clientes-item1{
+  margin-left: 0px;
+}
+
+#pasos .clientes-item1 h1{
+  font-size: 18px;
+  max-width: 100%;
+}
+
+#pasos .clientes-item2{
+  margin-left: 0px;
+}
+
+#pasos .clientes-item2 h1{
+  font-size: 18px;
+  max-width: 100%;
+}
+
+#pasos .clientes-item3{
+  margin-left: 0px;
+}
+
+#pasos .clientes-item3 h1{
+  font-size: 18px;
+  max-width: 100%;
+}
+
+/*contacto*/
+
+#contacto{
+  min-height: 1046px;
+}
+
+#contacto .clientes-form{
+  margin-top: 50px;
+}
+
+#contacto .contacto-text{
+    margin-left: 0px;
+}
+
+/*footer*/
+
+#footer .footer-logo{
+  margin-left: 0px;
+}
+
+#footer .footer-link{
+  margin-left: 0px;
+}
+
+#footer .footer-social{
+  margin-left: -30px;
+}
+
+}
+
+@media (max-width: 767px){
+
+  /*navbar*/
+
+  #navbar {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #nav .navbar-toggle{
+    background-color: #FFFFFF;
+    color: #fff;
+    margin-top: -4px;
+  }
+
+  #nav .navbar-left .dropdown #dropdownMenu span{
+    font-size: 15.88px;
+    max-width: 100%;
+  }
+
+  #nav .navbar-nav>li{
+    padding: 8px 8px;
+  }
+
+  #nav .icon-container{
+    /*margin-top: -70px;*/
+    float: none;
+  }
+
+  #nav .icon-container img{
+    margin: auto;
+  }
+
+  #nav .icon-container .dropdown-menu{
+    left: 40%;
+    top: 205px;
+  }
+
+  /*home-principal*/
+
+  .banner-principal{
+    min-height: 715px;
+  }
+
+  #home-principal{
+    margin-top: 90px;
+  }
+
+  #home-principal .home-container{
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+
+  #home-principal .home-text h1{
+    font-size: 25px;
+    max-width: 100%;
+  }
+
+  #home-principal .home-text p{
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  #home-principal .home-text button span{
+    font-size: 15.88px;
+    max-width: 100%;  
+  }
+
+  /*ventas*/
+
+  #ventas .container-fluid{
+    width: 100%;
+  }
+
+  #ventas .ventas-text h1{
+    font-size: 29px;
+    max-width: 100%;
+  }
+
+  #ventas .ventas-text p{
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  #ventas .ventas-text button span{
+    font-size: 15.88px;
+    max-width: 100%; 
+  }
+
+  /*clientes*/
+
+  #clientes .clientes-text h1{
+    font-size: 29px;
+    max-width: 100%; 
+  }
+
+  #clientes .clientes-text p{
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  #clientes .clientes-rectangle{
+    max-width: 100%;
+  }
+
+  /*pasos*/
+
+  #pasos .pasos-container .title{
+    font-size: 29px;
+    max-width: 100%;
+  }
+
+  #pasos .clientes-item1 p{
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  #pasos .clientes-item2 p{
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  #pasos .clientes-item3 p{
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  /*contacto*/
+
+  #contacto form{
+    max-width: 100%;
+  }
+
+  #contacto .contacto-text h1{
+    font-size: 28px;
+    max-width: 100%;
+  }
+
+  #contacto .contacto-text p{
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  #contacto form .title{
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  #contacto form .form1{
+    width: 100%;
+    float: none;
+  }
+
+  #contacto form .form1 input{
+    width: 432px;
+    max-width: 100%;
+  }
+
+  #contacto form .form2{
+    width: 100%;
+    float: none;
+  }
+
+  #contacto form .form2 input{
+    width: 432px;
+    max-width: 100%;
+  }
+
+  #contacto form textarea{
+    max-width: 100%;
+  }
+
+  /*footer*/
+
+  #footer{
+    text-align: center;
+  }
+
+  #footer .footer-logo img{
+    margin: auto;
+  }
+
+  #footer .footer-link{
+    margin-top: 15px;
+  }
+
+  #footer .footer-link{
+    margin-top: 15px;
+  }
+
+  #footer .footer-social{
+    margin-top: 15px;
+  }
+
+}
+
+@media (max-width: 465px){
+
+  /*nav*/
+
+  #nav .navbar-left .dropdown #dropdownMenu span{
+    font-size: 13.88px;
+  }
+
+  /*modal*/
+
+  #ConfirmMail .modal-body h4{
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  #ConfirmMail .modal-footer button span{
+    font-size: 14px;
+  }
+
+  /*home-principal*/
+
+  #home-principal .home-text h1{
+    font-size: 22px;
+  }
+
+  #home-principal .home-text p{
+    font-size: 14px;
+  }
+
+  #home-principal .home-text button span{
+    font-size: 14.88px;
+  }
+
+  /*ventas*/
+
+  #ventas .ventas-text h1{
+    font-size: 25px;
+  }
+
+  #ventas .ventas-text p{
+    font-size: 14px;
+  }
+
+  #ventas .ventas-text button span{
+    font-size: 14.88px;
+  }
+
+  /*clientes*/
+
+  #clientes .clientes-text h1{
+    font-size: 25px;
+  }
+
+  #clientes .clientes-text p{
+    font-size: 14px;
+  }
+
+  /*pasos*/
+
+  #pasos .pasos-container .title{
+    font-size: 25px;
+  }
+
+  #pasos .clientes-item1 h1{
+    font-size: 16px;
+  }
+
+  #pasos .clientes-item1 p{
+    font-size: 14px;
+  }
+
+  #pasos .clientes-item2 h1{
+    font-size: 16px;
+  }
+
+  #pasos .clientes-item2 p{
+    font-size: 14px;
+  }
+
+  #pasos .clientes-item3 h1{
+    font-size: 16px;
+  }
+
+  #pasos .clientes-item3 p{
+    font-size: 14px;
+  }
+
+  /*contacto*/
+
+  #contacto .contacto-text h1{
+    font-size: 24px;
+  }
+
+  #contacto .contacto-text p{
+    font-size: 14px;
+  }
+
+  #contacto form .title{
+    font-size: 16px;
+  }
+
+  #contacto form .buttonBox button span{
+    font-size: 13px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
